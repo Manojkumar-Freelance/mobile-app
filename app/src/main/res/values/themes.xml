@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppAddictionController" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/calm_primary</item>
+        <item name="colorPrimaryVariant">@color/calm_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_teal</item>
+        <item name="colorSecondaryVariant">@color/accent_teal</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/calm_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">@color/calm_background</item>
+        <item name="android:colorBackground">@color/calm_background</item>
+        <item name="colorSurface">@color/calm_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Typography -->
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Full Screen Theme for Block Activity -->
+    <style name="Theme.AppAddictionController.FullScreen" parent="Theme.AppAddictionController">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.AppAddictionController.Splash" parent="Theme.AppAddictionController">
+        <item name="android:windowBackground">@color/calm_primary</item>
+        <item name="android:statusBarColor">@color/calm_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

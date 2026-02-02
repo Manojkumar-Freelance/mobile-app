@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Vibrant Primary Colors -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_blue_dark">#1976D2</color>
+    <color name="primary_blue_light">#BBDEFB</color>
+    
+    <color name="primary_purple">#673AB7</color>
+    <color name="primary_purple_dark">#512DA8</color>
+    <color name="primary_purple_light">#D1C4E9</color>
+    
+    <!-- Status Colors (Vibrant) -->
+    <color name="success_green">#4CAF50</color>
+    <color name="success_green_light">#81C784</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="warning_orange_light">#FFB74D</color>
+    <color name="danger_red">#F44336</color>
+    <color name="danger_red_light">#E57373</color>
+    
+    <!-- Backgrounds (Light Mode) -->
+    <color name="background_light">#F5F7FA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Backgrounds (Dark Mode) -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="card_background_dark">#2C2C2C</color>
+    
+    <!-- Text Colors (Light Mode) -->
+    <color name="text_primary_light">#212121</color>
+    <color name="text_secondary_light">#757575</color>
+    <color name="text_tertiary_light">#9E9E9E</color>
+    
+    <!-- Text Colors (Dark Mode) -->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B0B0B0</color>
+    <color name="text_tertiary_dark">#808080</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#2196F3</color>
+    <color name="gradient_end">#673AB7</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_teal">#00BCD4</color>
+    <color name="accent_pink">#E91E63</color>
+    <color name="accent_yellow">#FFC107</color>
+    
+    <!-- Chart Colors -->
+    <color name="chart_primary">#4DB6AC</color>
+    <color name="chart_secondary">#9575CD</color>
+    
+    <!-- Legacy (keep for compatibility) -->
+    <color name="calm_primary">#2196F3</color>
+    <color name="calm_primary_light">#BBDEFB</color>
+    <color name="calm_primary_dark">#1976D2</color>
+    <color name="calm_background">#F5F7FA</color>
+    <color name="calm_surface">#FFFFFF</color>
+    <color name="calm_surface_variant">#ECEFF1</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#9E9E9E</color>
+    <color name="status_good">#4CAF50</color>
+    <color name="status_warning">#FF9800</color>
+    <color name="status_error">#F44336</color>
+    <color name="status_blocked">#90A4AE</color>
+</resources>
